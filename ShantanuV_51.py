@@ -112,12 +112,12 @@ class Library:
 if __name__ == "__main__":
     library = Library()
 
-    # Add books
+
     library.add_book("The Hobbit", "J.R.R. Tolkien")
     library.add_book("Dune", "Frank Herbert")
     library.add_book("1984", "George Orwell")
 
-    # Register patrons
+
     library.register_patron("Alice", "Johnson")
     library.register_patron("Bob", "Smith")
 
@@ -127,7 +127,7 @@ if __name__ == "__main__":
     library.show_patrons()
 
     print()
-    # Borrow / return demo
+
     library.borrow_book("Dune", "Alice", "Johnson")
     library.borrow_book("Dune", "Bob", "Smith")  # should fail
     library.return_book("Dune", "Alice", "Johnson")

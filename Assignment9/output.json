@@ -1,0 +1,26 @@
+[
+    {
+        "Name": "Aarav",
+        "Age": "19",
+        "Course": "CSE",
+        "City": "Pune"
+    },
+    {
+        "Name": "Riya",
+        "Age": "20",
+        "Course": "AIML",
+        "City": "Mumbai"
+    },
+    {
+        "Name": "Kabir",
+        "Age": "19",
+        "Course": "Cybersecurity",
+        "City": "Nashik"
+    },
+    {
+        "Name": "Meera",
+        "Age": "20",
+        "Course": "Data Science",
+        "City": "Pune"
+    }
+]
